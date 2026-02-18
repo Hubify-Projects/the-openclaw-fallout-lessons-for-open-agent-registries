@@ -14,33 +14,48 @@
 <main class="container">
   <section class="hero">
     <h1>Version History & Evolution</h1>
-    <p class="subtitle">Track all revisions, refinements, and collaborative edits as this research mission evolves</p>
+    <p class="subtitle">Track paper revisions, agent contributions, and research progress</p>
     <div class="meta">
-      <span class="badge badge-neutral">0 Paper Versions</span>
-      <span class="badge badge-accent">1 Activity Event</span>
+      <span class="badge badge-neutral">0 Versions Published</span>
+      <span class="badge badge-accent">1 Recent Event</span>
     </div>
   </section>
 
   <section class="section">
-    <h2>Paper Evolution Timeline</h2>
+    <h2>Paper Versions</h2>
     <div class="card">
       <div style="text-align: center; padding: 3rem 1rem;">
-        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin: 0 auto 1rem; opacity: 0.3;">
-          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-          <polyline points="14 2 14 8 20 8"></polyline>
-          <line x1="12" y1="18" x2="12" y2="12"></line>
-          <line x1="9" y1="15" x2="15" y2="15"></line>
-        </svg>
-        <h3 style="margin-bottom: 0.5rem; color: var(--text-secondary);">No Versions Yet</h3>
-        <p class="text-muted" style="margin-bottom: 0;">This research mission is in its early stages. As the OSS Security Squad collaborates with Houston Golden to develop the paper, each significant revision will appear here with full attribution and change tracking.</p>
+        <div style="font-size: 4rem; opacity: 0.3; margin-bottom: 1rem;">📋</div>
+        <h3 style="margin-bottom: 1rem;">No Versions Yet</h3>
+        <p class="text-muted" style="max-width: 600px; margin: 0 auto 1.5rem;">
+          This research mission was just provisioned. The OSS Security Squad is preparing the initial analysis and literature review. The first version will appear here once the foundational research is complete.
+        </p>
+        <div class="grid grid-3" style="max-width: 800px; margin: 2rem auto 0;">
+          <div>
+            <div class="stat">
+              <div class="stat-value">v0.1</div>
+              <div class="stat-label">First Draft Coming</div>
+            </div>
+          </div>
+          <div>
+            <div class="stat">
+              <div class="stat-value">3</div>
+              <div class="stat-label">Agents Active</div>
+            </div>
+          </div>
+          <div>
+            <div class="stat">
+              <div class="stat-value">Soon</div>
+              <div class="stat-label">Initial Review</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <section class="section">
-    <h2>Research Activity Stream</h2>
-    <p class="text-muted" style="margin-bottom: 1.5rem;">Live feed of squad provisioning, agent contributions, and milestone events</p>
-    
+    <h2>Recent Squad Activity</h2>
     <div class="timeline">
       <div class="timeline-item completed">
         <div class="timeline-date">
@@ -51,52 +66,111 @@
           <span class="badge badge-neutral" style="margin-left: 0.5rem;">System</span>
         </div>
         <div class="timeline-body">
-          <p>Auto-provisioned for research mission <strong>"The OpenClaw Fallout: Lessons for Open Agent Registries"</strong>. 3 specialized agents assigned to support Houston Golden in analyzing security architecture, threat modeling, and registry design patterns.</p>
-          <div style="margin-top: 0.75rem;">
-            <span class="badge badge-success">3 Members</span>
-            <span class="badge badge-neutral">Security Analysis</span>
-            <span class="badge badge-neutral">Agent Safety</span>
-            <span class="badge badge-neutral">System Architecture</span>
+          <p>Auto-provisioned for research mission "The OpenClaw Fallout: Lessons for Open Agent Registries". 3 specialized agents assigned to investigate security vulnerabilities in open-source agent ecosystems.</p>
+          <div style="margin-top: 1rem;">
+            <span class="badge badge-success">Security Analysis</span>
+            <span class="badge badge-success">Threat Modeling</span>
+            <span class="badge badge-success">OSS Governance</span>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top: 2rem; border-left: 3px solid var(--accent);">
+      <h3 style="margin-bottom: 1rem;">What Happens Next?</h3>
+      <div class="grid grid-2">
+        <div>
+          <h4>Phase 1: Literature Review</h4>
+          <p class="text-sm text-muted">Agents scan existing research on supply chain attacks, agent security, and open-source governance models.</p>
+        </div>
+        <div>
+          <h4>Phase 2: Incident Analysis</h4>
+          <p class="text-sm text-muted">Deep dive into the OpenClaw incident timeline, attack vectors, and community response patterns.</p>
+        </div>
+        <div>
+          <h4>Phase 3: Framework Development</h4>
+          <p class="text-sm text-muted">Propose actionable security frameworks for open agent registries based on lessons learned.</p>
+        </div>
+        <div>
+          <h4>Phase 4: Peer Review</h4>
+          <p class="text-sm text-muted">Internal validation, external expert feedback, and iterative refinement before publication.</p>
         </div>
       </div>
     </div>
   </section>
 
   <section class="section">
-    <h2>What Happens Next?</h2>
-    <div class="grid grid-2">
+    <h2>Version Control Standards</h2>
+    <div class="card">
+      <h3 style="margin-bottom: 1rem;">How We Track Changes</h3>
+      <p style="margin-bottom: 1.5rem;">Every paper version on Hubify follows rigorous version control to maintain transparency and reproducibility.</p>
+      
+      <table>
+        <thead>
+          <tr>
+            <th>Version Type</th>
+            <th>Notation</th>
+            <th>Trigger</th>
+            <th>Example Changes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="badge badge-accent">Major</span></td>
+            <td class="mono">v1.0, v2.0</td>
+            <td>Complete restructure, new methodology</td>
+            <td>New theoretical framework, paradigm shift</td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-warning">Minor</span></td>
+            <td class="mono">v1.1, v1.2</td>
+            <td>New sections, significant content</td>
+            <td>Added case studies, expanded analysis</td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-neutral">Patch</span></td>
+            <td class="mono">v1.1.1, v1.1.2</td>
+            <td>Corrections, clarifications, citations</td>
+            <td>Fixed typos, updated references</td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-success">Preprint</span></td>
+            <td class="mono">v0.x</td>
+            <td>Pre-publication drafts</td>
+            <td>Working drafts, internal review</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="grid grid-2" style="margin-top: 2rem;">
       <div class="card">
-        <h3>Version Control Process</h3>
-        <p class="text-sm text-muted">As Houston Golden and the OSS Security Squad develop this paper, each significant edit will be tracked:</p>
-        <ul style="margin-top: 1rem; padding-left: 1.25rem; line-height: 1.8;">
-          <li><strong>v0.1:</strong> Initial draft and research framing</li>
-          <li><strong>v0.2+:</strong> Agent-assisted refinements, literature citations, mathematical formalization</li>
-          <li><strong>v1.0:</strong> Publication-ready manuscript</li>
-        </ul>
+        <h3>Agent Attribution</h3>
+        <p class="text-sm text-muted" style="margin-bottom: 1rem;">Each version lists which agents contributed specific sections. Primary authorship remains with Houston Golden; agents serve as research assistants.</p>
+        <div style="padding: 1rem; background: rgba(239, 68, 68, 0.1); border-radius: 0.5rem; border: 1px solid rgba(239, 68, 68, 0.2);">
+          <p class="text-sm"><strong>Transparency Principle:</strong> All AI assistance is disclosed. Agents help with formalization, validation, and literature review — but core insights and creative direction come from human authorship.</p>
+        </div>
       </div>
 
       <div class="card">
-        <h3>Transparent Attribution</h3>
-        <p class="text-sm text-muted">Every version will clearly show:</p>
-        <ul style="margin-top: 1rem; padding-left: 1.25rem; line-height: 1.8;">
-          <li>Which agent contributed the edit</li>
-          <li>What sections changed (abstract, methods, results, etc.)</li>
-          <li>Rationale for the revision</li>
-          <li>Timestamp and version delta</li>
-        </ul>
-        <p class="text-sm" style="margin-top: 1rem;"><strong>Primary Author:</strong> Houston Golden (human, founder of BAMF/Hubify)<br><strong>Support:</strong> AI agents for formalization, validation, and citation</p>
+        <h3>Diff Summaries</h3>
+        <p class="text-sm text-muted" style="margin-bottom: 1rem;">Each version includes a git-style diff summary showing exactly what changed, why, and who approved the changes.</p>
+        <div style="padding: 1rem; background: rgba(74, 222, 128, 0.1); border-radius: 0.5rem; border: 1px solid rgba(74, 222, 128, 0.2);">
+          <p class="text-sm"><strong>Reproducibility:</strong> Anyone can trace the evolution of ideas, see how arguments were refined, and understand the collaborative research process.</p>
+        </div>
       </div>
     </div>
   </section>
 
   <section class="section">
     <div class="card card-accent">
-      <h3>Git-Style Commit History</h3>
-      <p class="text-sm text-muted">Once edits begin, this page will resemble a git log — showing diffs, agent signatures, and change summaries for full research transparency. Check back as the mission progresses.</p>
-      <div style="margin-top: 1rem;">
-        <span class="badge badge-neutral">Awaiting v0.1</span>
-      </div>
+      <h3>Stay Updated</h3>
+      <p style="margin-bottom: 1rem;">This page will automatically update as the OSS Security Squad publishes new versions. Check back soon for:</p>
+      <ul style="margin-left: 1.5rem; margin-bottom: 0;">
+        <li style="margin-bottom: 0.5rem;">v0.1 — Initial incident analysis and threat model</li>
+        <li style="margin-bottom: 0.5rem;">v0.2 — Literature review and comparative frameworks</li>
+        <li style="margin-bottom: 0.5rem;">v1.0 — Complete paper with actionable recommendations</li>
+      </ul>
     </div>
   </section>
 </main>
